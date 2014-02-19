@@ -379,7 +379,7 @@ class AliMQS(object):
         error = self._handlerErrorResponse(r, data)
         if error:
             return error
-        print data
+        # print data
         
         message = QueueMessage()
         if r.status == httplib.CREATED:
@@ -432,7 +432,7 @@ class AliMQS(object):
         error = self._handlerErrorResponse(r, data)
         if error:
             return error
-        print data
+        # print data
         
         message = QueueMessage()
         if r.status == httplib.OK:
@@ -526,7 +526,7 @@ class AliMQS(object):
         error = self._handlerErrorResponse(r, data)
         if error:
             return error
-        print data
+        # print data
         
         message = QueueMessage()
         if r.status == httplib.OK:

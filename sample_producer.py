@@ -15,6 +15,7 @@ def main():
     print 'sleep 10'
     time.sleep(10)
 
+    '''
     current_time = time.time()
     print 'send message hello and sleep 10(current time:%lf)' % (current_time)
     mq.SendMessage('testq', 'hello,%lf' %(current_time))
@@ -32,6 +33,12 @@ def main():
     mq.SendMessage('testq', 'hello2,%lf' %(current_time))
     print '(current time:%lf)' % (time.time())
     time.sleep(10)
+    '''
+
+    for i in xrange(100):
+        current_time = time.time()
+        print 'send message test (current time:%lf)' % (current_time)
+        mq.SendMessage('testq', 'test,%lf' %(current_time))
 
     current_time = time.time()
     print 'send message end(current time:%lf)' % (current_time)
