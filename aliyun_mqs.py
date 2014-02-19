@@ -12,7 +12,7 @@ import logging
 FORMAT = '%(asctime)-15s %(message)s'
 logging.basicConfig(format = FORMAT)
 logger = logging.getLogger('aliyun_mqs')
-logger.setLevel(logging.DEBUG)
+logger.setLevel(logging.WARN)
 
 MQS_VERSION = 1
 MQS_QUEUE_ATTRS = ('ActiveMessages','CacheSize','CreateTime','DelayMessages','DelaySeconds','InactiveMessages','LastModifyTime','MaximumMessageSize','MessageRetentionPeriod','QueueName','QueueStatus','SplitEnabled','VisibilityTimeout')

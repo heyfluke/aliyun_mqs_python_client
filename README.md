@@ -6,5 +6,7 @@
 * cp aliyun_mqs.conf-sample aliyun_mqs.conf
 * 配置aliyun_mqs.conf 文件即可运行 ./aliyun_mqs.py，如果不是运行例子则不需要使用这个配置文件，你可以用自己的方式来配置
 
-
+## 更多例子
+* sample_consumer.py / sample_producer.py 是一对消费者/生产者例子，可以参考一下
+* 需要手工创建testq这个队列
 
