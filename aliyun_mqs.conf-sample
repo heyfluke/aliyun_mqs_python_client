@@ -1,0 +1,9 @@
+[Account]
+AccessKeyId = youraccesskeyid
+AccessKeySecret = youraccesssecret
+OwnerID = yourownerid
+Host = yourownerid.mqs.aliyuncs.com
+
+
+# AccessKeyId/AccessKeySecret/OwnerId/Host example:
+# CXnZsiZgAQB1L9d / Y1kGZo490iWfu8gR7sD6hw9UAIphrk / h21s2ntau1 / http://h21s2ntau1.mqs.aliyuncs.com
