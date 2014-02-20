@@ -10,3 +10,7 @@
 * sample_consumer.py / sample_producer.py 是一对消费者/生产者例子，可以参考一下
 * 需要手工创建testq这个队列
 
+## 仓库地址
+bithucket: https://fluke.l@bitbucket.org/fluke.l/aliyun_mqs_python_client.git
+github: https://github.com/heyfluke/aliyun_mqs_python_client.git
+
